@@ -11,7 +11,7 @@ from Monchat2 import model, vectorizer
 
 
 nltk.download('punkt')
-
+nltk.download('punkt_tab')
 # Load the CSV files
 data= pd.read_csv("data/cleaned_dataset.csv")
 
