@@ -95,8 +95,8 @@ def predict_answer(user_input):
     return answer
 
 # Streamlit UI setup
-st.title("Multilingual Tourism and Hotel Chatbot")
-st.write("Ask me about tourism in Germany or hotels in English, French, or Arabic!")
+st.title("Your Ai doctor ")
+st.write("What can i help you with ? ")
 
 # User input
 user_input = st.text_input("Your question:")
